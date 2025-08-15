@@ -222,7 +222,7 @@ html { scroll-behavior: smooth; }
   }
 }
 
-iframe {
+#book iframe {
   border-radius: 1rem;
   padding: 1rem;
   background: #e7eef3;
