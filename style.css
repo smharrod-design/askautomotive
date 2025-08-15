@@ -51,6 +51,7 @@ body {
 p {
   line-height: 1.5;
 }
+
   /* Put SVG and text side-by-side */
   #logo { display: inline-flex; align-items: center; gap: .25rem; }
 
@@ -118,7 +119,9 @@ color: #fff;
 .cards { display: grid; grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); gap: 1rem; margin-top: 1rem; }
 .cards.two { grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); }
 .card { border: 1px solid rgba(255,255,255,.35); border-radius: 8px; padding: 1rem; background: rgb(26, 79, 107); }
-.card h3 { margin-top: 0; }
+.card h3 { margin-top: 0; margin-bottom: 0.25rem; }
+.card .muted { margin-top: 0rem ;
+}
 .meta { font-family: monospace; opacity: .9; }
 .price { font-weight: 700; }
 .muted { opacity: .85; }
@@ -211,7 +214,7 @@ html { scroll-behavior: smooth; }
 .back-to-top { justify-self: end; }
 .back-to-top a, .back-to-top a:hover { text-decoration: none; }
 .back-to-top a { display: inline-flex; align-items: center; gap: .4rem; font-weight: 800; border: 1px solid rgba(255,255,255,.35); padding: .4rem .7rem; border-radius: .5rem; }
-.footer-grid p { margin: .5rem; }
+.footer-grid p { margin: .5rem; text-align: center;}
 @media (max-width: 450px) {
   .header-container .actions {
     flex-direction: column;
