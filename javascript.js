@@ -62,7 +62,7 @@
     // Ensure desktop remains interactive via CSS; default mobile is non-interactive
     setInteractive(false);
   })();
-
+/*
 // Add SimplyBook widget script to the page
     (function(w, d, s, i) {
         var script = d.createElement(s);
@@ -73,3 +73,4 @@
         };
         d.head.appendChild(script);
     })(window, document, 'script', 'sbw_0m3y0p');
+*/
