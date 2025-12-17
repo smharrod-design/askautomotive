@@ -133,7 +133,7 @@ color: #fff;
 .list { list-style: none; padding: 0; margin: 0; display: grid; gap: .25rem; }
 
 /* Booking form */
-.booking-form { display: grid; gap: 1.5rem;}
+.booking-form { display: flex; flex-direction: column; gap: 1.5rem;}
 .booking-form label { display: grid; gap: .35rem; }
 .booking-form input,
 .booking-form select,
@@ -292,6 +292,8 @@ margin: 0px;
   font-weight: bold;
   font-size: 24px;
   border-radius: 12px !important;
+  box-sizing: border-box;
+width: 100%;
 }
 input.vehicle-reg {
   -webkit-appearance: none;
