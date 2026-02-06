@@ -142,8 +142,11 @@ color: #fff;
 .booking-form textarea::placeholder { color: rgba(255,255,255,.7); }
 .booking-form button { display: block; padding: 0.6rem .8rem; font-size: 16px; cursor: pointer;}
 .booking-form {background-color: #1a4f6b; padding: 2rem; border-radius: 1rem; flex: 1 1 50%;}
-#book .container { flex: 1 1 50%; }
+#book .container { flex: 1 1 50%; width: 100%; max-width: 440px; }
 #book { align-items: unset; flex-direction: column; }
+.booking-form select {
+  width: 100%;
+}
 
 @media (min-width: 900px) {
   .hero-title { font-size: 2.4rem; }
