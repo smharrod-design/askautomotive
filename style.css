@@ -137,7 +137,7 @@ color: #fff;
 .booking-form label { display: grid; gap: .35rem; }
 .booking-form input,
 .booking-form select,
-.booking-form textarea { border-radius: 6px; padding: .6rem .75rem; border: 1px solid rgba(255,255,255,.35); background: rgba(0,0,0,.1); color: #fff; }
+.booking-form textarea { border-radius: 6px; padding: .6rem .75rem; border: 1px solid rgba(255,255,255,.35); background: rgba(0,0,0,.1); color: #fff; font-size: 16px; }
 .booking-form input::placeholder,
 .booking-form textarea::placeholder { color: rgba(255,255,255,.7); }
 .booking-form button { display: block; padding: 0.6rem .8rem; font-size: 16px; cursor: pointer;}
@@ -290,7 +290,7 @@ margin: 0px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 24px !important;
   border-radius: 12px !important;
   box-sizing: border-box;
 width: 100%;
