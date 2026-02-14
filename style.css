@@ -239,6 +239,45 @@ html { scroll-behavior: smooth; }
 h2 {
   margin-top: 0rem;
 }
+
+.cookie-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 0.75rem;
+  background: #143448;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+#cookie-decline {
+  background: #143448;
+  color: #fff;
+}
+
+.cookie-banner p {
+  margin: 0;
+}
+
+.cookie-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 600px) {
+  .cookie-actions .btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}
 /* Normalize contact list icons and align links */
 .list { list-style: none; margin: 0; padding: 0; }
 .list li { display: flex; align-items: center; gap: 0.6rem; }
