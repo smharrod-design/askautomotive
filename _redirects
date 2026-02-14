@@ -1,1 +1,4 @@
+# Netlify fallback redirects
 https://askautomotive.netlify.app/* https://ask-automotive.com/:splat 301!
+https://www.ask-automotive.com/* https://ask-automotive.com/:splat 301!
+http://ask-automotive.com/* https://ask-automotive.com/:splat 301!
